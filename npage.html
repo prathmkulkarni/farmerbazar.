@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+<title>Product Bazar</title>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="sty.css">
+    </head>
+
+    <body>
+      <header class="container">
+        <a href="ice.html" class="logo clr-transition">Farmer Bazar</a>
+        <nav class="navbar">
+          <ul class="nav-items">
+            <li class="nav-item"><a href="index.html" class="nav-link clr-transition">Home</a></li>
+            <li class="nav-item"><a href="npage.html" class="nav-link clr-transition">Product</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link clr-transition">About</a></li>
+            <li class="nav-item"><a href="cont.html" class="nav-link clr-transition">Contact</a></li>
+          </ul>
+          <div class="social-links">
+            <ul>
+              <li><i class='bx bxl-instagram nav-icon clr-transition'></i></li>
+              <li><i class='bx bxl-twitter nav-icon clr-transition'></i></li>
+              <li><i class='bx bxl-facebook nav-icon clr-transition'></i></li>
+            </ul>
+            <span class="line-divider clr-transition"></span>
+            <div class="theme-togglers">
+              <i class='bx bxs-sun theme-toggler clr-transition'></i>
+              <i class='bx bxs-moon theme-toggler clr-transition'></i>
+            </div>
+          </div>
+        </nav>
+
+        <div class="menu-togglers">
+          <i class="bx bx-menu menu-toggle clr-transition"></i>
+        </div>
+      </header>
+       <section class="product-listing">
+        <div class="product-card">
+            <img src="D:\songs\FarmerBazar\tomato.png" alt="Tomatoes">
+            <h3>Fresh Organic Tomatoes</h3>
+            <p>Farm-grown tomatoes, organic and pesticide-free.</p><br><br>
+            <p class="price">$2.50/kg</p>
+            <button onclick="addToCart('Fresh Organic Tomatoes')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="D:\songs\FarmerBazar\apple.png" alt="Apples">
+            <h3>Apples</h3>
+            <p>Crisp and juicy apples picked fresh from the farm.</p><br><br><br><br><br><br>
+            <p class="price">$4.00/kg</p>
+            <button onclick="addToCart('Organic Apples')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="D:\songs\FarmerBazar\carrot.png" alt="Carrots">
+            <h3>Carrots</h3>
+            <p>Fresh and crunchy carrots from local farms.</p><br><br><br><br><br>
+            <p class="price">$1.80/kg</p>
+            <button onclick="addToCart('Carrots')">Add to Cart</button>
+        </div>
+    </section>
+    <section class="product-listing">
+        <div class="product-card">
+            <img src="D:\songs\FarmerBazar\brinjal.png" alt="brinjal">
+            <h3>Brinjals</h3>
+            <p>Farm-fresh brinjal, organic and pesticide-free.</p><br><br>
+            <p class="price">$2.50/kg</p>
+            <button onclick="addToCart('Fresh Organic Tomatoes')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="D:\songs\FarmerBazar\potato.png" alt="potato">
+            <h3>Potatos</h3>
+            <p>Organic potatoes, free from synthetic pesticides.</p><br><br><br><br>
+            <p class="price">$4.00/kg</p>
+            <button onclick="addToCart('Organic Apples')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="D:\songs\FarmerBazar\spinach.png" alt="spinach">
+            <h3>Spinach</h3>
+            <p>Freshly picked spinach, perfect for healthy meals.</p><br><br><br><br>
+            <p class="price">$1.80/kg</p>
+            <button onclick="addToCart('Carrots')">Add to Cart</button>
+        </div>
+    </section>
+    <section class="product-listing">
+        <div class="product-card">
+            <img src="D:\songs\FarmerBazar\brocoli.png" alt="brocoli">
+            <h3>Broccoli</h3>
+            <p>Nutritious broccoli, harvested at peak freshness.</p><br><br>
+            <p class="price">$2.50/kg</p>
+            <button onclick="addToCart('Fresh Organic Tomatoes')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="D:\songs\FarmerBazar\cabbage.png" alt="cabbage">
+            <h3>Cabbage</h3>
+            <p>Tender cabbage, ideal for cooking and steaming.</p><br><br><br><br>
+            <p class="price">$4.00/kg</p>
+            <button onclick="addToCart('Organic Apples')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="D:\songs\FarmerBazar\garlic.png" alt="garlic">
+            <h3>Garlic</h3>
+            <p>Farm-grown garlic, rich in health benefits.</p><br><br><br><br>
+            <p class="price">$1.80/kg</p>
+            <button onclick="addToCart('Carrots')">Add to Cart</button>
+        </div>
+    </section>
+    <section class="product-listing">
+        <div class="product-card">
+            <img src="D:\songs\FarmerBazar\pumpkin.png" alt="pumpkin">
+            <h3>Pumpkin</h3>
+            <p>Fresh pumpkin, sweet and versatile for cooking.</p><br><br><br><br><br><br>
+            <p class="price">$2.50/kg</p>
+            <button onclick="addToCart('Fresh Organic Tomatoes')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="D:\songs\FarmerBazar\greenbeans.png" alt="greenbeans">
+            <h3>GreenBeans</h3>
+            <p>Farm-grown green beans, tender and flavorful.</p><br><br><br><br>
+            <p class="price">$4.00/kg</p>
+            <button onclick="addToCart('Organic Apples')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="D:\songs\FarmerBazar\radish.png" alt="radish">
+            <h3>Radish</h3>
+            <p>Zesty radishes, great for adding spice.</p><br><br><br><br><br><br><br><br>
+            <p class="price">$1.80/kg</p>
+            <button onclick="addToCart('Carrots')">Add to Cart</button>
+        </div>
+    </section>
+        
+
+      
+
+        <div class="other-footer-infos-container">
+          <span class="footer-info"><i class="bx bx-map"></i> Address : FC Road Pune </span>
+          <span class="footer-info"><i class="bx bx-phone"></i> +91 7397877643</span>
+         <a href="ice.html"> <span class="footer-info"><i class="bx bx-mail-send"></i> farmerbazar.com</span></a>
+          <div class="footer-social-links">
+            <ul>
+              <li><i class='bx bxl-instagram-alt nav-icon clr-transition'></i></li>
+              <li><i class='bx bxl-twitter nav-icon clr-transition'></i></li>
+              <li><i class='bx bxl-facebook-square nav-icon clr-transition'></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="lower-footer">
+          <span class="lower-footer-elt copy">copyright © 2024 FARMER BAZAR</span>
+          <span class="lower-footer-elt developer">Developed by <a href="https://thierrymugisha.me/" class="developerportfoliolink" title="developer portfolio link">Prathmesh Kulkarni, Bhavesh Jadhav, Ganesh Khodse, Rohit kharait</a></span>
+          <<span class="lower-footer-elt policy"><a href="#" class="policy-link">Privacy • Policy</a></span>
+        </div>
+      </footer>
+      <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+      <script src="pk.js"></script>
+    </body>
+</html>
